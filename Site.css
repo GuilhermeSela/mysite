@@ -4,20 +4,31 @@ body {
     padding: 0;
 }
 
-header{    
+header {
     background-image: url(Logo.png);
     background-size: contain;
-    padding: 10px 104px;
+    padding: 9px 107px;
     display: flex;
     background-repeat: no-repeat;
-    background-position: 23px 3px;
+    background-position: 24px 2px;
     flex-direction: column;
     align-content: flex-start;
 }
 
-h1{
-    font-size: 23px;
-    font-family: YADpK2K4GhA-0;
-    margin-bottom: 5px; 
+.header-content {
+    display: flex;
+    flex-direction: column;
 }
+
+h1 {
+    font-size: 24px;
+    font-family: 'YADpK2K4GhA-0'; 
+    margin-bottom: -2px;
+}
+
+.cogu {
+    margin-top: -5px;
+    margin-left: 24px;
+}
+
 
