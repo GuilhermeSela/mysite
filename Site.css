@@ -5,19 +5,21 @@ body {
 }
 
 header {
-    background-image: url(Logo.png);
+    background-image: url(Imagens/Logo.png);
     background-size: contain;
     padding: 9px 107px;
     display: flex;
     background-repeat: no-repeat;
     background-position: 24px 2px;
     flex-direction: column;
-    align-content: flex-start;
+    background-color: transparent;
+    position: fixed;
 }
 
 .header-content {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 h1 {
@@ -31,4 +33,35 @@ h1 {
     margin-left: 24px;
 }
 
+.Capa {
+    background-image: url(Imagens/CapaEscura.png);
+    background-size: cover;
+    background-position: center;
+    height: 704px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
 
+.Port {
+    font-size: 56px;
+    margin: 0;
+    -webkit-text-stroke: 0.025em rgb(255, 255, 255);
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0.04419417em 0.04419417em 0em rgba(255, 255, 255, 1.000000);
+    font-family: 'YADpK2K4GhA-0'
+}
+
+.GuiSela {
+    font-size: 84px;
+    margin: 8px;
+    color: #ff8c8c;
+    -webkit-text-stroke: 0.025em #ff8c8c;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0.034194em 0.0114em 0em #ff8c8c;
+    font-family: 'YADpK2K4GhA-0'
+}
