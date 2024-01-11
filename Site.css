@@ -22,7 +22,6 @@ header {
     color: white;
 }
 
-<<<<<<< HEAD
 nav {
     margin-right: 750px;
 }
@@ -38,8 +37,6 @@ a {
     text-decoration: none;
 }
 
-=======
->>>>>>> 4112a97fe6d63203f8587fcf4432ddda1c6bcea4
 h1 {
     font-size: 24px;
     font-family: 'YADpK2K4GhA-0'; 
@@ -55,11 +52,7 @@ h1 {
     background-image: url(Imagens/CapaEscura.png);
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD
     height: 797px;
-=======
-    height: 704px;
->>>>>>> 4112a97fe6d63203f8587fcf4432ddda1c6bcea4
     color: #fff;
     text-align: center;
     display: flex;
@@ -72,12 +65,6 @@ h1 {
 .Port {
     font-size: 56px;
     margin: 0;
-<<<<<<< HEAD
-=======
-    -webkit-text-stroke: 0.025em rgb(255, 255, 255);
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0.04419417em 0.04419417em 0em rgba(255, 255, 255, 1.000000);
->>>>>>> 4112a97fe6d63203f8587fcf4432ddda1c6bcea4
     font-family: 'YADpK2K4GhA-0'
 }
 
@@ -85,7 +72,6 @@ h1 {
     font-size: 84px;
     margin: 8px;
     color: #ff8c8c;
-<<<<<<< HEAD
     font-family: 'YADpK2K4GhA-0'
 }
 
@@ -199,10 +185,4 @@ body {
 
 .gallery-image:hover {
 	transform: scale(1.15);
-=======
-    -webkit-text-stroke: 0.025em #ff8c8c;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0.034194em 0.0114em 0em #ff8c8c;
-    font-family: 'YADpK2K4GhA-0'
->>>>>>> 4112a97fe6d63203f8587fcf4432ddda1c6bcea4
 }
