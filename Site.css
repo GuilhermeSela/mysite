@@ -1,0 +1,188 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(Imagens/Logo.png);
+    background-size: contain;
+    padding: 9px 107px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 24px 2px;
+    flex-direction: column;
+    background-color: transparent;
+    position: fixed;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+nav {
+    margin-right: 750px;
+}
+
+nav a {
+    margin-left: 40px;
+    font-weight: 200;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'YADpK2K4GhA-0'; 
+    margin-bottom: -2px;
+}
+
+.cogu {
+    margin-top: -5px;
+    margin-left: 24px;
+}
+
+.Capa {
+    background-image: url(Imagens/CapaEscura.png);
+    background-size: cover;
+    background-position: center;
+    height: 797px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.Port {
+    font-size: 56px;
+    margin: 0;
+    font-family: 'YADpK2K4GhA-0'
+}
+
+.GuiSela {
+    font-size: 84px;
+    margin: 8px;
+    color: #ff8c8c;
+    font-family: 'YADpK2K4GhA-0'
+}
+
+.QuemSou {
+    background-color: #ff8c8c;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.TQuem {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.TextQuem {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Adicionando algum estilo adicional, como espaçamento interno e margem para o texto */
+.TextQuem {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.Videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TextoInsta{
+    font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.VideoContainer {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Adjust the width based on your design */
+    box-sizing: border-box;
+}
+.Imagem{
+    min-width:450px
+}
+
+.instagram-media {
+    background: #FFF;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
